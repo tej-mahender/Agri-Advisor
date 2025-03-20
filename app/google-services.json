@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "451691197056",
+    "project_id": "agri-advisor-ebb7c",
+    "storage_bucket": "agri-advisor-ebb7c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451691197056:android:1c04e5f629f0e21ab3ac65",
+        "android_client_info": {
+          "package_name": "com.example.agri_advisor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV0Gyrg6kiiq_KE9LDXu_0fNk_jqby-Zk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

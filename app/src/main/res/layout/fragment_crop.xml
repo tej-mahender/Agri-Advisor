@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/light_green">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crop Recommendation"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#333"
+            android:layout_marginBottom="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Crop Attributes"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+
+        <EditText
+            android:id="@+id/input_nitrogen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Nitrogen level (N)"
+            android:inputType="numberDecimal"
+            android:background="@drawable/input_bg"/>
+
+        <EditText
+            android:id="@+id/input_phosphorus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Phosphorus level (P)"
+            android:inputType="numberDecimal"
+            android:background="@drawable/input_bg"/>
+
+        <EditText
+            android:id="@+id/input_potassium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Potassium level (K)"
+            android:inputType="numberDecimal"
+            android:background="@drawable/input_bg"/>
+
+        <EditText
+            android:id="@+id/input_temperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Temperature (°C)"
+            android:inputType="numberDecimal"
+            android:background="@drawable/input_bg"/>
+
+        <EditText
+            android:id="@+id/input_humidity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Humidity (%)"
+            android:inputType="numberDecimal"
+            android:background="@drawable/input_bg"/>
+
+        <EditText
+            android:id="@+id/input_ph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Soil pH"
+            android:inputType="numberDecimal"
+            android:background="@drawable/input_bg"/>
+
+        <EditText
+            android:id="@+id/input_rainfall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Rainfall (mm)"
+            android:inputType="numberDecimal"
+            android:background="@drawable/input_bg"/>
+
+        <Button
+            android:id="@+id/btn_predict"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Predict Crop"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/output_crop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recommended Crop: --"
+            android:textSize="18sp"
+            android:textColor="#333"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_weather"
+        android:icon="@drawable/weather"
+        android:title="Weather"
+        />
+
+    <item
+        android:id="@+id/nav_crop"
+        android:icon="@drawable/crop"
+        android:title="Crop Rec." />
+
+    <item
+        android:id="@+id/nav_yield"
+        android:icon="@drawable/yield"
+        android:title="Yield" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/profile"
+        android:title="Profile" />
+
+</menu>
