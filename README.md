@@ -1,3 +1,3 @@
 
 
-[Agri-Advisor.pdf](https://github.com/user-attachments/files/19679624/Agri-Advisor.pdf)
+[Agri-Advisor.pdf](https://drive.google.com/file/d/1HbBSy-VANezsGS9hq2wRbtHmtwJHsAHx/view)
