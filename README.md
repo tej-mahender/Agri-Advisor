@@ -12,8 +12,6 @@ Built on Android using Java, with Firebase for backend storage and authenticatio
 **Documentation**: [Agri-Advisor.pdf](https://drive.google.com/file/d/1HbBSy-VANezsGS9hq2wRbtHmtwJHsAHx/view)
 
 
----
-
 ## 🌟 Features
 
 - 🔐 **User Authentication & Profile Management**  
@@ -41,7 +39,6 @@ Built on Android using Java, with Firebase for backend storage and authenticatio
   - SDG 3 – Good Health and Well-being
   - SDG 15 – Life on Land
 
----
 
 ## 🧠 Tech Stack
 
@@ -54,5 +51,3 @@ Built on Android using Java, with Firebase for backend storage and authenticatio
 | Weather Data    | OpenWeatherMap API                        |
 | IDE             | Android Studio                            |
 | Version Control | Git, GitHub                               |
-
----
